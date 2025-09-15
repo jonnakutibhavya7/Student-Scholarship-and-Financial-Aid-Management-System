@@ -1,0 +1,31 @@
+.ship {
+  max-width: 100%; /* Limits the width of the content */
+  margin: 0 auto;    /* Centers the container horizontally */
+  padding: 0 20px;   /* Adds some space on the sides */
+}
+
+.scholarship-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .scholarship-card {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scholarship-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .scholarship-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  

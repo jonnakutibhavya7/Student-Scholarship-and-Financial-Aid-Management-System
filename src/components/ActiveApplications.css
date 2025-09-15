@@ -1,0 +1,107 @@
+.applications-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .application-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .application-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .student-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c64fc;
+  }
+  
+  .student-name {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #34495e;
+  }
+  
+  .scholarship-name {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+  }
+  
+  .application-details {
+    text-align: right;
+  }
+  
+  .application-details p {
+    margin: 5px 0;
+    color: #2c3e50;
+  }
+  
+  .status-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .status-tag.active {
+    background-color: #4caf50;
+  }
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .back-button:active {
+    transform: translateY(0);
+  }
+    

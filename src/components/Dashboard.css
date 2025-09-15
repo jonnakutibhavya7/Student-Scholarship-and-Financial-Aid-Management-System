@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Stats Section */
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .stat-card h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .stat-card p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Table Section */
+  .scholarship-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scholarship-table th,
+  .scholarship-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .scholarship-table th {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .status.active {
+    background-color: #4caf50;
+  }
+  
+  .status.closed {
+    background-color: #f44336;
+  }
+  
+  .status.awarded {
+    background-color: #ff9800;
+  }
+  
+  /* Upcoming Deadlines Section */
+  .deadlines-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .deadline-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .deadline-name {
+    font-weight: bold;
+  }
+  
+  .deadline-date {
+    color: #555;
+    font-style: italic;
+  }
+  
